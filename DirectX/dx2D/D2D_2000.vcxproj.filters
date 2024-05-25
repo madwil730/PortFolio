@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Renders\Shader.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\String.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Keyboard.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Rect.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Time.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Device.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Sprite.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Math.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Clip.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Animation.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Camera.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\FreeCamera.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\IFollow.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Following.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\DirectWrite.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Stage1.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Stage2.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\CMouse.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\BinaryFile.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Path.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Xml.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\SoundManager.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Line.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Sonic\MapEditor.h">
+      <Filter>Scenes\Sonic</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Sonic\FileManager.h">
+      <Filter>Scenes\Sonic</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Sonic\MarerTest.h">
+      <Filter>Scenes\Sonic</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Sonic\Game.h">
+      <Filter>Scenes\Sonic</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ShaderTest\Bloom.h">
+      <Filter>Scenes\ShaderTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\SkyRect.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ShaderTest\SkyRectTest.h">
+      <Filter>Scenes\ShaderTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ShaderTest\ColorOverlay.h">
+      <Filter>Scenes\ShaderTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Sonic\TitleScene.h">
+      <Filter>Scenes\Sonic</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Astar\PathFinder.h">
+      <Filter>Scenes\Astart</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Astar\AstarTest.h">
+      <Filter>Scenes\Astart</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Background.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Chocobo.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Fire.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Fish.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Marker.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Ring.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Sonic.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TileMagma.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor\Kyoko.h">
+      <Filter>Object\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\UnitTest\DashTest.h">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\UnitTest\ButtonDashTest.h">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\UnitTest\RapidDashTest.h">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\UnitTest\Move8WayTest.h">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\UnitTest\WarpTest.h">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\UnitTest\JumpStaticTest.h">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\UnitTest\JumpVariableTest.h">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor\JumpStatic.h">
+      <Filter>Object\Actor\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor\JumpVariable.h">
+      <Filter>Object\Actor\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor\Move8Way.h">
+      <Filter>Object\Actor\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor\MoveDash.h">
+      <Filter>Object\Actor\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor\MoveRapid.h">
+      <Filter>Object\Actor\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor\MoveRun.h">
+      <Filter>Object\Actor\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor\MoveWarp.h">
+      <Filter>Object\Actor\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MY\Ship.h">
+      <Filter>Object\My</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\My\Space.h">
+      <Filter>Scenes\My</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\My\Beam.h">
+      <Filter>Object\My</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\My\Inveder.h">
+      <Filter>Object\My</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\My\Inveder2.h">
+      <Filter>Object\My</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\My\Inveder3.h">
+      <Filter>Object\My</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\My\rock.h">
+      <Filter>Object\My</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\My\Gameover.h">
+      <Filter>Object\My</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\My\Start.h">
+      <Filter>Scenes\My</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\My\StartEarth.h">
+      <Filter>Object\My</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Renders\Shader.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\String.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Keyboard.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Rect.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Time.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Device.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\SPrite.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Math.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Clip.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Animation.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Camera.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\FreeCamera.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Following.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\DirectWrite.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Scenes\Stage1.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Stage2.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\CMouse.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\BinaryFile.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Path.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Xml.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\SoundManager.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Line.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Sonic\MapEditor.cpp">
+      <Filter>Scenes\Sonic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Sonic\FileManager.cpp">
+      <Filter>Scenes\Sonic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Sonic\MarketTest.cpp">
+      <Filter>Scenes\Sonic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Sonic\Game.cpp">
+      <Filter>Scenes\Sonic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ShaderTest\Bloom.cpp">
+      <Filter>Scenes\ShaderTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\SkyRect.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ShaderTest\SkyRectTest.cpp">
+      <Filter>Scenes\ShaderTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ShaderTest\ColorOverlay.cpp">
+      <Filter>Scenes\ShaderTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Sonic\TitleScene.cpp">
+      <Filter>Scenes\Sonic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Astar\PathFinder.cpp">
+      <Filter>Scenes\Astart</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Astar\AstarTest.cpp">
+      <Filter>Scenes\Astart</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Background.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Chocobo.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Fire.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Fish.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Marker.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Ring.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Sonic.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TileMagma.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor\Kyoko.cpp">
+      <Filter>Object\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\UnitTest\DashTest.cpp">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\UnitTest\ButtonDashTest.cpp">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\UnitTest\RapidDashTest.cpp">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\UnitTest\Move8WayTest.cpp">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\UnitTest\WarpTest.cpp">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\UnitTest\JumpStaticTest.cpp">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\UnitTest\JumpVariableTest.cpp">
+      <Filter>Scenes\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor\JumpStatic.cpp">
+      <Filter>Object\Actor\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor\JumpVariable.cpp">
+      <Filter>Object\Actor\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor\Move8Way.cpp">
+      <Filter>Object\Actor\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor\MoveDash.cpp">
+      <Filter>Object\Actor\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor\MoveRapid.cpp">
+      <Filter>Object\Actor\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor\MoveRun.cpp">
+      <Filter>Object\Actor\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor\MoveWarp.cpp">
+      <Filter>Object\Actor\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MY\Ship.cpp">
+      <Filter>Object\My</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\My\Space.cpp">
+      <Filter>Scenes\My</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\My\Beam.cpp">
+      <Filter>Object\My</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\My\Inveder.cpp">
+      <Filter>Object\My</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\My\Inveder3.cpp">
+      <Filter>Object\My</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\My\Inveder2.cpp">
+      <Filter>Object\My</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\My\rock.cpp">
+      <Filter>Object\My</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\My\Gameover.cpp">
+      <Filter>Object\My</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\My\Start.cpp">
+      <Filter>Scenes\My</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\My\StratEarth.cpp">
+      <Filter>Object\My</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Renders">
+      <UniqueIdentifier>{4a164444-99cb-42bb-adfb-99a5492ca53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{4eb9dd76-6b72-4be2-bdef-3bbcce9c5eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{31c8e8be-2463-4b2c-a5a1-0e51dd44b017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{92cd6b5e-9504-4d3f-aba3-49cd520318ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{ca65b3c4-09e8-4c15-b8f7-2b3512a61f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{766ac1cb-e009-4c5c-8195-880c6f51ab64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Shader2D">
+      <UniqueIdentifier>{684dd8c8-4ea8-45b0-800f-b3bc0b56d8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Sonic">
+      <UniqueIdentifier>{679b7719-6a28-42fc-b330-e3c644e2fce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\ShaderTest">
+      <UniqueIdentifier>{f3106548-77c9-48a8-bf92-3bacc6adb30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Astart">
+      <UniqueIdentifier>{d3f6f788-3af7-4d8b-8bd4-f97869293c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor">
+      <UniqueIdentifier>{a5ac387e-a826-4805-9ddd-ab002b8bcd00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObject">
+      <UniqueIdentifier>{860f5509-067d-4244-a82b-9b14a3e5c47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\UnitTest">
+      <UniqueIdentifier>{0d8c6aac-40a3-425a-886b-71f02f0cae8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\My">
+      <UniqueIdentifier>{9ce38afd-ceb8-42fd-abae-abbcaeb09cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Move">
+      <UniqueIdentifier>{b3c6e04f-8b3c-41e0-ba6d-a0785b083411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Jump">
+      <UniqueIdentifier>{f5333e1a-3ca9-4525-b06a-2f5c5a1a5a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\My">
+      <UniqueIdentifier>{e40c87e9-978d-4483-9a9f-9bfd9bd3e4fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_Shader2D\Effect.fx">
+      <Filter>_Shader2D</Filter>
+    </None>
+    <None Include="_Shader2D\Bounding.fx">
+      <Filter>_Shader2D</Filter>
+    </None>
+    <None Include="_Shader2D\Line.fx">
+      <Filter>_Shader2D</Filter>
+    </None>
+    <None Include="_Shader2D\SkyRect.fx">
+      <Filter>_Shader2D</Filter>
+    </None>
+    <None Include="_Shader2D\ColorOverlay.fx">
+      <Filter>_Shader2D</Filter>
+    </None>
+    <None Include="_Shader2D\Rect.fx">
+      <Filter>_Shader2D</Filter>
+    </None>
+  </ItemGroup>
+</Project>

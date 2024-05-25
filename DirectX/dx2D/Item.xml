@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Discount xmlns:xsi="http://www.w3.org/2001/XML_Scheme-instance" xmlns:xsd="http://wwww.w3.org/2001/XMLScheme">
+    <ItemDesc>
+        <Location>Hell</Location>
+        <Attribute>10</Attribute>
+        <Percentage>0.5</Percentage>
+    </ItemDesc>
+</Discount>
